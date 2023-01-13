@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This is a shogi game.
+This is a shogi game writen by C language. This project uses linked list data structure. You can follow the rule of shogi to play this program. This program has some features. First, you can regret by enter '0'. Second, you can replay the previous game you have played.
 
 ## Functions
 
@@ -26,13 +26,13 @@ make
 make run
 ```
 
-### Option 2:To load a old game:
+### Option 2:To load a history of previous game:
 
 ```
 make load
 ```
 
-### Usage of new game -n
+### Usage of creating a new game
 
 #### Blue's pieces movement
 
@@ -59,7 +59,7 @@ make load
 0
 ```
 
-### Usage of old game -l
+### Usage of loading a history of previous game
 
 ```
 Enter 'f' to go to the next round.
