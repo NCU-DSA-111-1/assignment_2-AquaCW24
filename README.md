@@ -15,7 +15,7 @@ This is a shogi game.
 ## Compile
 
 ```
-gcc main.c -o main.out
+make
 ```
 
 ## Operation
@@ -23,13 +23,13 @@ gcc main.c -o main.out
 ### Option 1:To create a new game:
 
 ```
-./a.out -n {FILENAME}.txt
+make run
 ```
 
 ### Option 2:To load a old game:
 
 ```
-./a.out -l {FILENAME}.txt
+make load
 ```
 
 ### Usage of new game -n

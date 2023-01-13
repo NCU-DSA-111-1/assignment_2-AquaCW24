@@ -23,6 +23,11 @@ compile:
 # gcc -Wall src/main.c src/sta ... -I ./
 copy: compile
 	@mv $(notdir $(SRC_LIST:.c=.o)) $(OBJ_DIR)/
+run:
+	./bin/main -n ./src/history.txt
+
+load:
+	./bin/main -l ./src/history.txt
 
 $(PROG_NAME): copy
 	$(LD) $(OBJ_LIST) -o $(BIN_DIR)/$@

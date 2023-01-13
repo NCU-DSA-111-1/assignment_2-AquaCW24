@@ -1,3 +1,7 @@
 Enter the following command to compile source file(make sure your directory is in /src):
 
-gcc main.c -o main.out
+#for create a new game, enter:
+make run
+
+#for load history, enter:
+make load
