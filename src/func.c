@@ -1152,9 +1152,10 @@ void manual()
 
         else if(forb == 'x')
         {
+            printf("Leave the replay.\n");
             break;
         }
-
+        
         else{
             printf("ERROR!\n");
         }
